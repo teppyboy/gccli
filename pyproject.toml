@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gccli"
+version = "0.1.0"
+description = "Another Grasscutter manager"
+authors = ["tretrauit <tretrauit@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+appdirs = "^1.4.4"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
